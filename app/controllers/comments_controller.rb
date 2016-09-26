@@ -4,6 +4,7 @@
 
 class CommentsController < ApplicationController
   before_action :authenticate_user!
+  before_action :check_user_type
   before_action :find_commentable, only: :create
   respond_to :js
 

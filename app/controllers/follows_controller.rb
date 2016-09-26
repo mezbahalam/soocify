@@ -4,6 +4,7 @@
 
 class FollowsController < ApplicationController
   before_action :authenticate_user!
+  before_action :check_user_type
   respond_to :js
 
   def create

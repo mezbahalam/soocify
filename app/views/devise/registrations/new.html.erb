@@ -17,6 +17,21 @@
         <%= f.label :email %>
         <%= f.email_field :email, class: 'form-control', placeholder: 'email@example.com' %>
       </div>
+      
+      <div class="form-group">
+        <%= f.label :location %>
+        <%= f.text_field :location, class: 'form-control', autofocus: true, placeholder: 'Location' %>
+      </div>
+      
+      <div class="form-group">
+        <%= f.label :user_type %>
+        <%#= f.select :user_type, ['Business','Client'], :html_options => {class: 'form-control selectpicker'} %>
+      <select name="user[user_type]" class= 'form-control selectpicker' id="user_user_type">
+        <option value="Business">Business</option>
+        <option value="Client">Client</option>
+      </select>
+      
+      </div>
       <div class="form-group">
         <%= f.label :password %>
         <% if @minimum_password_length %>

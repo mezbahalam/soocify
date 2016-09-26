@@ -4,6 +4,7 @@
 
 class LikesController < ApplicationController
   before_action :find_likeable
+  before_action :check_user_type
   before_action :authenticate_user!
   respond_to :js
 

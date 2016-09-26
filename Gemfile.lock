@@ -52,6 +52,7 @@ GEM
       rinku (~> 1.5.0)
     autoprefixer-rails (6.4.1)
       execjs
+    awesome_print (1.7.0)
     bcrypt (3.1.11)
     better_errors (2.1.1)
       coderay (>= 1.0.0)
@@ -222,8 +223,10 @@ GEM
     formatador (0.2.5)
     friendly_id (5.1.0)
       activerecord (>= 4.0.0)
+    geocoder (1.4.0)
     globalid (0.3.7)
       activesupport (>= 4.1.0)
+    gmaps4rails (2.1.2)
     guard (2.14.0)
       formatador (>= 0.2.4)
       listen (>= 2.7, < 4.0)
@@ -285,6 +288,8 @@ GEM
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
       slop (~> 3.4)
+    pry-rails (0.3.4)
+      pry (>= 0.9.10)
     public_activity (1.5.0)
       actionpack (>= 3.0.0)
       activerecord (>= 3.0)
@@ -398,6 +403,7 @@ DEPENDENCIES
   acts_as_votable (~> 0.10.0)
   auto_html (~> 1.6.4)
   autoprefixer-rails
+  awesome_print
   better_errors
   binding_of_caller
   bootstrap-sass (~> 3.2.0)
@@ -409,6 +415,8 @@ DEPENDENCIES
   fog-aws
   font-awesome-rails
   friendly_id (~> 5.0)
+  geocoder
+  gmaps4rails
   guard
   guard-rspec (~> 4.2.8)
   jquery-atwho-rails
@@ -416,6 +424,7 @@ DEPENDENCIES
   letter_opener
   pg
   populator
+  pry-rails
   public_activity
   rails (= 5.0.0)
   rails_12factor
@@ -431,4 +440,4 @@ RUBY VERSION
    ruby 2.3.1p112
 
 BUNDLED WITH
-   1.12.5
+   1.13.1

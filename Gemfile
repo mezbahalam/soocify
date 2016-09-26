@@ -27,6 +27,9 @@ group :development do
   gem 'letter_opener'
   gem 'guard'
   gem 'guard-rspec', '~> 4.2.8'
+  gem "awesome_print", require:'ap'
+  gem 'pry-rails'
+
 end
 
 group :development, :test do
@@ -57,6 +60,8 @@ gem 'faker'
 gem 'populator'
 gem 'auto_html', '~>1.6.4'
 gem 'sanitize'
+gem 'geocoder'
+gem 'gmaps4rails'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'

@@ -1,3 +1,4 @@
+
 <div id="user-info" class="well">
   <div class="text-center">
     <%= render 'shared/avatar', user: @user %><br>
@@ -18,7 +19,8 @@
       <%= fa_icon 'map-marker' %>
       <%= @user.location %>
     </h5>
-  <% end %>
+  <% end %>   
+ 
   <br>
   <div class="text-center">
     <% unless is_current_user?(@user) %>

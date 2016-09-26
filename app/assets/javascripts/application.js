@@ -16,6 +16,8 @@
 //= require bootstrap
 //= require bindWithDelay
 //= require jquery.datetimepicker
+//= require underscore
+//= require gmaps_google
 //= require_tree .
 
 $(document).ready(function(){

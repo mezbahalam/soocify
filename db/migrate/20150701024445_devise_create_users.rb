@@ -9,6 +9,7 @@ class DeviseCreateUsers < ActiveRecord::Migration
       t.string :avatar
       t.string :cover
 
+
       ## Recoverable
       t.string   :reset_password_token
       t.datetime :reset_password_sent_at

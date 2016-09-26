@@ -19,3 +19,11 @@
 @import "jquery.datetimepicker";
 @import "jquery.atwho";
 @import "*";
+
+
+.selectpicker {
+    display: inline-block;
+    overflow: hidden;
+    width: 100%;
+    text-align: left;
+}
